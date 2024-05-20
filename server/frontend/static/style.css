@@ -75,10 +75,16 @@ img{
 }
 
 .banner{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 1522px;
+  height: 125px; 
+  padding: 100px;
+  border: 1px solid lightblue;
+  display: initial;
+  flex-direction: inherit;
+  align-items: top;
+  vertical-align: text-top;
+  text-align: center;
+  justify-content: flex-start;
   flex:1
 }
 
