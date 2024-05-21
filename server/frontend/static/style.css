@@ -19,10 +19,24 @@ img{
 }
 
 .card-img-top{
-    border: 2px solid rgb(235, 198, 218);
-    
-    
+    border: 2px solid rgb(235, 198, 218); 
 }
+
+.card-contact{
+    border: rgb(4, 0, 12) 3px solid;
+    border-radius: 25%;
+}
+
+.banner-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex:1
+}
+
+
 
 .row{
   display: flex;  
@@ -75,16 +89,23 @@ img{
 }
 
 .banner{
-  width: 1522px;
+  /*width: 1522px;
   height: 125px; 
   padding: 100px;
   border: 1px solid lightblue;
-  display: initial;
+  box-sizing: border-box;
+  display: flex;
   flex-direction: inherit;
   align-items: top;
   vertical-align: text-top;
   text-align: center;
   justify-content: flex-start;
+  flex:1*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
   flex:1
 }
 
