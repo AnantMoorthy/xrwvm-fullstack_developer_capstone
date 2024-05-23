@@ -25,20 +25,21 @@ img{
   .card-contact{
       display: flex;
       border: rgb(4, 0, 12) 3px solid;
-      /*background-color: darkturquoise;*/
       border-radius: 25%;
-      height: 1250px;
+      height: 1100px;
       flex:1;
   }
   
   .info-row{
     box-sizing: border-box;
-    width: 1500px;
+    width: 1000px;
   }
 
   .leftcolumn{
       float: left;
       width: 50%;
+      height:100%;
+      text-align: center;
   }
   
   .rightcolumn{
