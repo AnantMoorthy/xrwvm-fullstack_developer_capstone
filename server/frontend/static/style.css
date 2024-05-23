@@ -23,8 +23,29 @@ img{
 }
 
 .card-contact{
+    display: flex;
     border: rgb(4, 0, 12) 3px solid;
     border-radius: 25%;
+    height: 1000px;
+    flex:1;
+}
+
+
+.leftcontact{
+    border-right: rgb(4, 0, 12) 3px solid;
+    margin-left: -25%;
+    width: 75%;
+    height: 75%;
+}
+
+.leftcolumn{
+    float: left;
+    width: 50%;
+}
+
+.rightcolumn{
+    float: left;
+    width: 50%;
 }
 
 .banner-contact{
@@ -32,8 +53,8 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
     flex:1
+    
 }
 
 
